@@ -30,7 +30,7 @@ body {
 :root {
     --white-1: #FFFFFF;
     --white-2: #F2F2F2;
-    --orange:  #E28625;
+    --orange: #E28625;
     --teal: #006971;
     --green: #004140;
 }
@@ -120,7 +120,7 @@ body {
     cursor: pointer;
 }
 
-@media only screen and (width > 1024px) {
+@media only screen and (width > 1220px) {
     .card {
         max-width: 920px;
         height: 500px;
@@ -134,14 +134,21 @@ body {
     .feature__button {
         margin-top: 83px;
     }
+
+    .main-wrapper {
+        width: 1440px;
+        height: 800px;
+        padding-top: 171px;
+        padding-left: 260px;
+    }
 }
 
-@media only screen and (width <= 1024px) {
+@media only screen and (width <= 1220px) {
     .card {
         max-width: 327px;
         min-height: 1326px;
         flex-shrink: 0;
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     .card-content {
