@@ -70,7 +70,7 @@ body {
 }
 
 /* BLOCK */
-.card-content {
+.card {
     display: flex;
     font-family: "Big Shoulders Display", sans-serif;
     overflow: clip;
@@ -78,7 +78,12 @@ body {
 }
 
 .feature {
+    height: 100%;
     padding: 48px;
+}
+
+.feature__icon {
+    display: inline-block;
 }
 
 .feature__title {
@@ -124,9 +129,6 @@ body {
     .card {
         max-width: 920px;
         height: 500px;
-    }
-
-    .card-content {
         justify-content: center;
         align-items: center;
     }
@@ -149,10 +151,6 @@ body {
         min-height: 1326px;
         flex-shrink: 0;
         margin: 10px 0;
-    }
-
-    .card-content {
-        width: 100%;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
