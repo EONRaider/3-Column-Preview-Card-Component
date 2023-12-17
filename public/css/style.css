@@ -82,8 +82,14 @@ body {
     padding: 48px;
 }
 
-.feature__icon {
+.feature-icon {
     display: inline-block;
+    overflow: clip;
+    height: 40px;
+}
+
+.feature-icon > * {
+    height: 100%;
 }
 
 .feature__title {
@@ -131,6 +137,10 @@ body {
         height: 500px;
         justify-content: center;
         align-items: center;
+    }
+
+    .feature {
+        width: 307px;
     }
 
     .feature__button {
